@@ -25,4 +25,4 @@ PbWatcher(function(data){
 
 # Thanks
 
-Clipboard-watcher was deeply inspired by [https://github.com/SheetJS/pb](SheetJS/pb).
+Clipboard-watcher was deeply inspired by [SheetJS/pb](https://github.com/SheetJS/pb).
