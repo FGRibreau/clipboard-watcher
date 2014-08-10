@@ -1,4 +1,4 @@
-pbwatcher
+clipboard-watcher
 =========
 
 Notify of clipboard change (OSX only)
@@ -6,7 +6,7 @@ Notify of clipboard change (OSX only)
 # npm
 
 ```shell
-npm install pbwatcher
+npm install clipboard-watcher
 ```
 
 # usage
@@ -14,7 +14,7 @@ npm install pbwatcher
 ```javascript
 'use strict';
 
-var PbWatcher = require('pbwatcher');
+var PbWatcher = require('clipboard-watcher');
 
 var watchIntervalMs = 250;
 
