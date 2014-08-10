@@ -1,6 +1,7 @@
 'use strict';
 
 var PbWatcher = require('../');
+
 var watchIntervalMs = 250;
 
 PbWatcher(function(data){
