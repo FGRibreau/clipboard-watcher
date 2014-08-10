@@ -42,7 +42,7 @@ function getClipboard(type){
   var tt = mytype(type);
   var t  = tt[0];
   var o  = tt[1];
-  return String(o === 's' ? x('stringForType', t) : '');
+  return String(o === 's' ? x('stringForType', t) || '' : '');
 }
 
 /**
