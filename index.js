@@ -15,9 +15,9 @@ module.exports = function(f, interval){
   interval = interval || module.exports.DEFAULT_INTERVAL;
 
   function tick(){
-    var data = String(getClipboard());
+    var data = getClipboard();
 
-    if(data !== null && data !== current){
+    if(data && data !== current){
       current = data;
       f(current);
     }
@@ -42,7 +42,7 @@ function getClipboard(type){
   var tt = mytype(type);
   var t  = tt[0];
   var o  = tt[1];
-  return o === 's' ? x('stringForType', t) : null;
+  return String(o === 's' ? x('stringForType', t) : '');
 }
 
 /**

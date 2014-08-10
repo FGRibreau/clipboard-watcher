@@ -3,13 +3,13 @@ clipboard-watcher
 
 Notify of clipboard change (OSX only)
 
-# npm
+# Npm
 
 ```shell
 npm install clipboard-watcher
 ```
 
-# usage
+# Usage
 
 ```javascript
 'use strict';
@@ -22,3 +22,7 @@ PbWatcher(function(data){
   console.log('Clipboard changed to : "%s"', data);
 }, watchIntervalMs);
 ```
+
+# Thanks
+
+Clipboard-watcher was deeply inspired by [https://github.com/SheetJS/pb](SheetJS/pb).
