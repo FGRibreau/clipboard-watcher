@@ -1,6 +1,6 @@
 {
   "name": "clipboard-watcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Listen to clipboard change (OSX only)",
   "main": "index.js",
   "scripts": {
